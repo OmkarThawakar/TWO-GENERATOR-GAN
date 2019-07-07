@@ -22,6 +22,10 @@ project is to segment moving objects within videos with background estimation.
 2. LASIESTA dataset
 3. SegTreck dataset
 
+## Model Flow
+
+![Sample Image](https://github.com/OmkarThawakar/RBFS-GAN/blob/master/Dataset/Network.png)
+
 ## Training 
 
 ```
