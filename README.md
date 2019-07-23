@@ -182,7 +182,7 @@ input image >> groundtruth background >> pred background >> pred seg of moving o
   <img src="/Test_Results/images/553-targets.png" width="170" />
 </p>
 
-========================================================================================================================================
+==============================================================================
 ## Quantitative Comparison
 
 For Quantitative comparison following files provide videowise results for respective datasets.
