@@ -204,8 +204,18 @@ Structure of folder containing result is as follows
     .......
     .......
 ```
-For Quantativecomparison run following codes
+For Quantitative comparison run following codes
 ```
 Quantitative_Analysis_Without_Erossion.py --dataset_name dataset_name
 Quantative_Analysis_with_erossion.py --dataset_name dataset_name
+```
+Results
+```
+|-------|	SSIM     |	MAE      |F_Measure |	Precision|	Recall   |
+|-------|----------|----------|----------|----------|----------|
+|video1 |	0.938925 |	0.013869 |	0.741054 |	0.938016 |	0.616825 |
+|video2 |	0.915701 |	0.023757 |	0.819515 | 0.884632 |	0.773631 |
+|video3 |	0.900783 |	0.018898 |	0.730071 |	0.877356 |	0.626688 |
+|video4 |	0.873954 |	0.048541 |	0.683289 |	0.851387 |	0.577624 |
+|video5 |	0.921787	| 0.015483 |	0.545057 |	0.506826 |	0.593607 |
 ```
