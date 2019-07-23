@@ -182,5 +182,30 @@ input image >> groundtruth background >> pred background >> pred seg of moving o
   <img src="/Test_Results/images/553-targets.png" width="170" />
 </p>
 
+========================================================================================================================================
+## Quantitative Comparison
 
-
+For Quantitative comparison following files provide videowise results for respective datasets.
+```
+Quantitative_Analysis_Without_Erossion.py     ######## without applying dilation and erossion on output
+Quantative_Analysis_with_erossion.py          ######## with applying dilation and erossion on output
+```
+Structure of folder containing result is as follows
+```
+  ├── DAVIS                     # Dataset Name
+    ├── video1                  # video name
+    │   ├── *input.png          # input image
+    │   ├── *background.png     # background image
+    │   └── *output_1.png       # generator 1 output
+    |   └── *output_2.png       # generator 2 output
+    |   └── *target.png         # groundtruth image
+    └── video2
+    | .......
+    .......
+    .......
+```
+For Quantativecomparison run following codes
+```
+Quantitative_Analysis_Without_Erossion.py --dataset_name dataset_name
+Quantative_Analysis_with_erossion.py --dataset_name dataset_name
+```
