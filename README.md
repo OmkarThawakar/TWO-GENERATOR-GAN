@@ -1,4 +1,4 @@
-# TWo-GENERATOR-GAN
+# TWO-GENERATOR-GAN
 
 This project is completed in CVPR lab, Department of Electrical Engineering and 
 Technology, IIT Ropar under the guidence of Dr. Subrahmanyam Murala. Aim of this 
